@@ -6,70 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <p>Name</p>
-        <input type="text" name="username" id="" value="" placeholder="Maxim">
-    </div>
-    <div>
-        <p>Password</p>
-        <input type="password" name="userpass" id="" value="">
-    </div>
-    <div>
-        <p>Tel</p>
-        <input type="tel" name="userpass" id="" value="" placeholder="0-000-000">
-    </div>
-
-    <div>
-        <p>Gender</p>
-        <p>
-            <input type="radio" name="Gender" value="Male" checked> Male
-            <input type="radio" name="Gender" value="Female"> Female
-        </p>
-    </div>
     
-    <div>
-        <p><input type="radio" name="food1" value="pizza" checked>Pizza</p>
-        <p></p><input type="radio" name="food1" value="salad" checked>Salad</p>
-        <p></p><input type="radio" name="food1" value="burger">Burger</p>
-    </div>
-
-
-    <div>
-        <p>Ваш любимый цвет:</p>
-        <p><input type="checkbox" name="color1" value="one">Синий</p>
-        <p><input type="checkbox" name="color2" value="two">Зеленый</p>
-        <p><input type="checkbox" name="color3" value="three">Красный</p>
-        <p><input type="checkbox" name="color4" value="four">Желтый</p>
-       </div>
-       
-       <div>
-        <p>Выберите дату: <input type="date" name="" id=""></p>
-        <p>Укажите время: <input type="time" name="" id=""></p>
-       </div>
-       
-       <div>
-        <input type="color" name="color" id="">
-       </div> 
-       
-       <div>
-        <input type="number" name="number" min="0" max="10" id="">
-       </div>
-       
-       <div>
-        <input type="file" name="picture" >
-        </div>
-
+    <form action="#" method="post" enctype="multipart/form-data">
 
         <div>
-            <select name="age">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            </select>
-           </div>
+            <p>Name</p>
+            <input type="text" name="username" id="" value="" placeholder="Maxim">
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password" name="userpass" id="" value="">
+        </div>
+        <div>
+            <p>Tel</p>
+            <input type="tel" name="userpass" id="" value="" placeholder="0-000-000">
+        </div>
+    
+        <div>
+            <p>Gender</p>
+            <p>
+                <input type="radio" name="Gender" value="Male" checked> Male
+                <input type="radio" name="Gender" value="Female"> Female
+            </p>
+        </div>
+        
+        <div>
+            <p>Meel</p>
+                <input type="radio" name="food1" value="pizza" checked>Pizza
+                <input type="radio" name="food1" value="salad" checked>Salad
+                <input type="radio" name="food1" value="burger">Burger
+            
+        </div>
+    
+    
+        <div>
+            <p>Quantity</p>
+            <input type="text" name="quanty" id="" value="3" size="2">
+        </div>
+    
+        <div>
+            <p>Favorite color</p>
+            <input type="color" name="color" id="" value="">
+        </div>
+    
+        <div>
+            <p>About yourself</p>
+            <textarea name="bifText" id="" aria-setsize="20px"></textarea>
+        </div>
            
+        <div>
+            <p>Your photo</p>
+            <input type="file" name="photo" id="" value="">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+               
+    </form>
 
 
 </body>
