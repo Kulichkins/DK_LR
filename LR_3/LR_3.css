@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+p{
+    font-size: 1rem;
+}
+.h1_red > h1{
+    color: red;
+    margin-bottom: 2rem;
+
+}
+.blue_p > p{
+    width: 9.3rem;
+    padding-bottom: 1rem;
+    color: white;
+    background-color: blue;
+}
+span{
+    color: red;
+}
+h2{
+    color: white;
+    background-color: green;
+}
+img{
+    width: 9rem;
+    height: 6rem;
+}
+div {
+    padding-left: 1rem;
+}
+.h2_shape > h2{
+    height: 10rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+.p_space > p{
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ul {
+    padding-left: 1rem;
+}
+li {
+    border: 1px solid black;
+}
