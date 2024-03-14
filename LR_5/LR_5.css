@@ -1,0 +1,466 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu ;
+    
+    
+}
+header{
+    color: #fff;
+    background: rgb(65,150,238);
+    background: linear-gradient(180deg, rgba(65,150,238,1) 0%, rgba(120,186,254,1) 35%, rgba(93,169,247,1) 100%);
+}
+.container{
+    width: 65em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    animation: backInDown;
+    animation-duration: 1s;
+    
+}
+.animator-div{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100em;
+    height: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    
+}
+.block-down{
+    width: 1em;
+    height: 1em;
+    background: rgb(65,150,238);
+    animation-name: fall;
+    transition-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.block-down1{
+    width: 1em;
+    height: 1em;
+    background: rgb(65,150,238);
+    animation-name: fall2;
+    transition-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.block-down2{
+    width: 1em;
+    height: 1em;
+    background: rgb(65,150,238);
+    animation-name: fall3;
+    transition-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fall3 {
+    0% {
+        background-color: rgb(65,150,238);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        background-color:rgb(255,212,41);
+        opacity: 0;
+        transform: translateY(20em);
+        rotate: 30deg;
+    }
+}
+@keyframes fall {
+    0% {
+        background-color: rgb(65,150,238);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        background-color:rgb(255,212,41);
+        opacity: 0;
+        transform: translateY(15em);
+        rotate: -30deg;
+    }
+}
+@keyframes fall2 {
+    0% {
+        background-color: rgb(65,150,238);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+        rotate: -10deg;
+    }
+
+    80% {
+        opacity: 1;
+        
+    }
+
+    100% {
+        background-color:rgb(255,212,41);
+        opacity: 0;
+        transform: translateY(25em);
+        rotate: 0deg;
+    }
+}
+
+.logo{
+    margin-bottom: 2em;
+    
+}
+.cats{
+    width: 200px;
+    margin-top: 1em;
+    animation: shakeX;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+span{
+    font-size: 50px;
+
+}
+.offer-txt{
+    width: 25em;
+}
+.header-img>img{
+    padding-top: 5em;
+    width: 25em;
+    
+}
+.btn{
+    margin-top: 3em;
+    text-decoration: none;
+    width: 200px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,212,41);
+    color: black;
+    transition: all 0.3s;
+}
+.btn:hover{
+    color: rgb(23, 23, 23);
+    background-color:rgb(228, 190, 36);
+    scale: 1.2;
+    border-radius: 10px;
+}
+.animtainer{
+    
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+    height: 15em;
+  
+    
+}
+.move-wt{
+    padding: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 4em;
+    height: 1em;
+    background-color:rgb(228, 190, 36);
+}
+.circle{
+    width: 0.8em; 
+    height: 0.8em;
+    background: white;
+    border-radius: 50%;
+}
+
+.worm1{
+    animation-name: worm1;
+    transition-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm1 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 8em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm2{
+    animation-name: worm2;
+    transition-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm2 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 11em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm3{
+    animation-name: worm3;
+    transition-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm3 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 13em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm4{
+    animation-name: worm4;
+    transition-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm4 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 4em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm5{
+    animation-name: worm5;
+    transition-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm5 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 8em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm6{
+    animation-name: worm6;
+    transition-timing-function: ease-in;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm6 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 10em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.worm7{
+    animation-name: worm7;
+    transition-timing-function: ease-in;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@keyframes worm7 {
+    0% {
+        
+        
+    }
+
+    50% {
+        height: 7em;
+    }
+
+    100% {
+        height: 1em;
+    }
+}
+.main-title{
+    padding-top: 4em;
+    width: 30em;
+    height:6em;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.main-img{
+    width: 65em;
+    display: flex;
+    justify-content: space-between;
+}
+.h3-info{
+    width: 15em;
+    height: 10em;
+    text-align: center;
+}
+
+main{
+    width: 65em;
+    margin: 0 auto;
+    animation: backInDown;
+    animation-duration: 1s;
+}
+section{
+    background-color: rgb(236,243,248);
+}
+.section-form{
+    animation: backInDown;
+    animation-duration: 1s;
+    width: 25em;
+    margin: 0 auto;
+}
+.text-fiel{
+    width: 280px;
+    height: 2em;
+    margin-bottom: 1.5em;
+    
+}
+.form-filed{
+    
+    
+}
+.text-fiel::placeholder {
+    color: black;
+    opacity: 0.8;
+    padding-left: 1em;
+    font-size: smaller;
+  }
+form{
+    text-align: center;
+}
+.img-h3{
+    transition: width 10s;
+    cursor: pointer;
+
+}
+.img-h3:active{
+    animation: bounceIn;
+    animation-duration: 2s;
+}
+
+.form-btn{
+    width: 287.2px;
+    height: 3.5em;
+    background-color: rgb(255,212,41);
+    border: none;
+    margin-bottom: 5em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.form-btn:hover{
+    color: rgb(23, 23, 23);
+    background-color:rgb(228, 190, 36) ;
+    scale: 1.2;
+    border-radius: 10px;
+
+}
+.section-h2{
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+footer{
+    background: rgb(65,150,238);
+    background: linear-gradient(180deg, rgba(65,150,238,1) 0%, rgba(120,186,254,1) 35%, rgba(93,169,247,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-info{
+    animation: backInDown;
+    animation-duration: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 50em;
+    height: 6em;
+}
