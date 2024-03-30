@@ -1,0 +1,76 @@
+.container{
+    width: 65em;
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    height: 15em;
+    background-color:Black;
+    border: 2px solid black;
+}
+
+.password{
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+}
+.passwdbut{
+    text-align: center;
+    padding: 8px;
+    background-color: #128512;
+    cursor: pointer;
+    margin: 0.5em;
+
+}
+.main-info{
+    width: 18em;
+    height: 15em;
+    text-align: right;
+    border: 2px solid black;
+    padding-right: 2em;
+    padding-left: 0.5em;
+
+}
+
+.main-info1{
+    width: 18em;
+    height: 15em;
+    text-align: left;
+    border: 2px solid black;
+    padding-left: 2em;
+
+}
+.main-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    height: 15em;
+    background-color:Black;
+    border: 2px solid black;
+}
+.gameel{
+    text-align: center;
+    padding: 8px;
+    margin: 0.5em;
+}
+.firstIn{
+    text-align: center;
+    padding: 8px;
+    margin: 0.5em;
+}
+.firstOut{
+    text-align: center;
+    padding: 8px;
+    margin: 0.5em;
+}
