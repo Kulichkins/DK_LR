@@ -74,6 +74,16 @@ document.getElementById("chng-btn").onclick = function(){
     this.style.color = "rgba(0,0,0,0)";
 }
 
+let isMoved = false;
+document.getElementById('movableElement').onclick = function moveElement() {
+    if (!isMoved) {
+        movableElement.style.transform = 'translate(0px, -100px)';
+    } else {
+        movableElement.style.transform = 'translate(0, 0)';
+    }
+    isMoved = !isMoved
+}
+
 
 
 function outputData() {
@@ -88,7 +98,7 @@ function outputData() {
     let paymethod = document.getElementById("paymethod").value;
 
     if (first != "" && last != "" && dest != "" && phone != "" && date != "" && time != "" && quantity != "") {
-        document.getElementById("summary").style.color = "black";
+        document.getElementById("summary").style.color = "green";
         document.getElementById("summary").innerHTML = "Hello, " + first + " " + last + "!";
         document.getElementById("summary").innerHTML += "<p>Your order was successfully placed. We will contact you as soon as possible. You can see the details of your order below: </p>";
         document.getElementById("summary").innerHTML += "<p>Phone number: " + phone + ".</br>";
