@@ -52,6 +52,7 @@ checkBut.addEventListener('click', (e) => {
         const guessedNumber = parseInt(gameel.value);
         if (guessedNumber === randomNumber) {
           alert('Вы угадали число!');
+          attempts = 5;
         } else if (guessedNumber < randomNumber) {
           alert('Введенное число меньше загаданного.');
         } else {
