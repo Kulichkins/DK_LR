@@ -1,0 +1,23 @@
+.main-img{
+    width: 65em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h3-info{
+
+    width: 15em;
+    height: 20em;
+    text-align: center;
+}
+.main-title{
+    width: 20em;
+    height:2em;
+    text-align: center;
+    padding-top: 2em;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
