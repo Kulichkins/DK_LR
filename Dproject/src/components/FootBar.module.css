@@ -1,0 +1,11 @@
+.Footrrr{
+    color: white;
+    margin-top: 2em;
+    background-color: rgb(79,52,52);
+    height: 3em;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 0.5em;
+    border: solid  rgb(79,52,52);
+    border-radius: 1em 1em 0 0;
+}

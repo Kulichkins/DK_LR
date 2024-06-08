@@ -1,0 +1,85 @@
+.TopFt{
+    background-image: url(./TEacher.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 800px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.TeacImg{
+    width: 8em;
+    padding-bottom: 0;
+    margin-bottom: -0.5em;
+}
+.TeacImgCol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 8em;
+    margin-right: 2em;
+}
+.TeacImgText{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: justify;
+}
+.TeacImgCol2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 8em;
+    margin-left: 2em;
+}
+@media screen and (max-width: 1200px) 
+{
+    
+        
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) 
+{
+    .TeacImgCol{
+        text-align: center;
+    }
+    .TopFt{
+        font-size: 35px;
+    }
+    .TeacImgText{
+        width: 700px;
+        font-size: 20px;
+    }
+    .TeacImgCol{
+        font-size: 25px;
+        margin-left: 2em;
+    }
+    .TeacImgCol2{
+        font-size: 25px;
+        
+    }
+    .KitIs{
+        font-size: 30px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) 
+{
+    
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) 
+{
+    .TeacImgText{
+        
+        font-size: 20px;
+    }
+}

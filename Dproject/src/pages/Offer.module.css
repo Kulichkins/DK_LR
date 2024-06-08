@@ -1,0 +1,165 @@
+.TopFt{
+    background-image: url(./CatslideOffer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.AskPre{
+    background-color: rgb(79,52,52);
+    height: 10em;
+    border: solid rgb(79,52,52);
+    border-radius:1em;
+    margin-top: 1em;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 2em;
+    color: white;
+}
+.AskTr{
+    background-color: rgb(0,113,93);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    height: 8.5em;
+    width: 8.5em;
+    padding: 1em;
+    margin-top: -1.5em;
+}
+.AskTrMore{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 2em;
+}
+.KitIs{
+    text-align: center;
+    margin-top: 7em;
+}
+.KitsOpis{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 3em;
+}
+.KitsOpisFor{
+    margin-left: 14em;
+    margin-right: -3em;
+    border-bottom: solid rgb(79,52,52);
+   
+}
+.KitsOpisfor2{
+    border-bottom: solid rgb(79,52,52);
+    margin-left: -3em;
+    margin-right: 14em;
+}
+.btnWrap{
+    background-color: rgb(79,52,52);
+    border: solid rgb(79,52,52);
+    border-radius:1em;
+    margin-top: 7em;
+}
+.KitsOpisbtn{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 1em;
+}
+.Kitbtn{
+    color: white;
+    font-size: 40px;
+    background-color: rgb(0,113,93);
+    border-radius: 0.5em;
+    border: solid rgb(0,113,93);
+    width: 8em;
+   
+}
+.btnWr{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+}
+@media screen and (max-width: 1200px) 
+{
+    .TopFt{
+        font-size: 40px;
+    }
+    .KitsOpisFor{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .KitsOpisfor2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .KitsOpis{
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 3em;
+    }
+    .AskTr{
+        font-size: 30px;
+        margin-left: 1em;
+    }
+    .AskTrMore{
+        font-size: 30px;
+    }
+    .AskPre{
+        font-size: 30px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) 
+{
+    .KitsOpisbtn{
+        font-size: 20px;
+    }
+    .Kitbtn{
+        font-size: 20px;
+    }
+    .AskPre{
+        font-size: 20px;
+    }
+    .AskTr{
+        background-color: rgb(0,113,93);
+        border-radius: 1em;
+        color: white;
+        height: 4em;
+        width: 9em;
+        font-size: 20px;
+    }
+    .TopFt{
+        font-size: 30px;
+    }
+    .AskTrMore{
+        font-size: 20px;
+    }
+    .KitIs{
+        margin-top: 2em;
+        font-size: 30px;
+    }
+    .KitsOpis{
+        font-size: 20px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) 
+{
+    
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) 
+{
+
+}

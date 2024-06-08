@@ -1,0 +1,82 @@
+.TopFt{
+    background-image: url(./TimeTeach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 800px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.day{
+    background-color: rgb(0,113,93);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    height: 8em;
+    width: 8em;
+}
+.dayDescr{
+    background-color: rgb(79,52,52);
+    border: solid rgb(79,52,52);
+    border-radius:1em;
+    padding: 1em;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin-top: 5em;
+    margin-left: -3em;
+}
+@media screen and (max-width: 1200px) 
+{
+    .day{
+        font-size: 30px;
+    }
+    .dayDescr{
+        font-size: 30px;
+    }    
+}
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) 
+{
+    .day{
+        
+        font-size: 20px;
+    }
+    .dayDescr{
+        font-size: 20px;
+    }   
+}
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) 
+{
+    .day{
+        height: 5em;
+        width: 8em;
+        border-radius: 2em;
+    }
+    .dayDescr{
+        margin-top: 1em;
+        margin-left: 0em;
+    } 
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) 
+{
+    .day{
+        margin-left: 1em;
+    }
+    .dayDescr{
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 400px;
+    }
+}
